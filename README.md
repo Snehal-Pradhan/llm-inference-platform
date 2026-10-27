@@ -18,13 +18,15 @@ The simplest inference thing will be running a model on a gpu and connecting it 
 Generally what we do is use either of the 2 options, even second option is really rare, the most used option is using APIs from major AI providers 
 
 <p align="center">
-  <img src="public/1.png" alt="Option 1" style="max-width: 60%;">
+  <img src="public/1.png" alt="Option 1" width="700">
 </p>
+
 but there is an issue here. Higher rate limits cause much more money and we don't control the pricing much.
 
 There is a third option also which is using a rented GPU 
+
 <p align="center">
-  <img src="public/2.png" alt="Option 2" style="max-width: 60%;">
+  <img src="public/2.png" alt="Option 2" width="700">
 </p>
 
 suppose we get the rented GPU from somewhere 
@@ -36,13 +38,14 @@ then we need an inference engine:
 > why need an inference engine ?
 > 
 > <p align="center">
->   <img src="public/3.png" alt="Inference engine" style="max-width: 60%;">
+>   <img src="public/3.png" alt="Inference engine" width="700">
 > </p>
 
 there are a few options like vLLM, llama.cpp, Ollama etc. but vLLM is more suitable for bigger models / scale.
 you can use other options like Ollama and llama.cpp for smaller models for local use.
 
 ### The Thing I have made as the first step in the project
+
 <p align="center">
-  <img src="public/4.png" alt="First step implementation" style="max-width: 60%;">
+  <img src="public/4.png" alt="First step implementation" width="700">
 </p>
